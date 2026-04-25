@@ -1,7 +1,5 @@
-import tkinter as tk
+from launcher import AppLauncher
 
-root = tk.Tk()
-root.title("Pick an App")
-root.geometry("800x600")
 
-root.mainloop()
+app = AppLauncher()
+app.run()
